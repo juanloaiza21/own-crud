@@ -1,0 +1,37 @@
+{
+  "name": "own-crud",
+  "version": "0.0.1",
+  "description": "CRUD with users using mongoDB",
+  "main": "main.js",
+  "scripts": {
+    "dev": "nodemon main.js",
+    "start": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juanloaiza21/own-crud.git"
+  },
+  "keywords": [
+    "CRUD",
+    "Learning",
+    "Mongo",
+    "Express"
+  ],
+  "author": "Juan David Loaiza Reyes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/juanloaiza21/own-crud/issues"
+  },
+  "homepage": "https://github.com/juanloaiza21/own-crud#readme",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "mongoose": "^6.8.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
